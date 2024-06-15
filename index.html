@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="src-javascript.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess-Number</title>
+</head>
+<body style="background-color: #216161; color: aliceblue;">
+    <div class="banner">
+        <h1>Number-Guessing-Game</h1>
+    </div>
+    <div class="center">
+        
+        <div class="result"></div>
+        <form class="form">
+            <label for="guessField" id="guess">
+                Guess a Number
+            </label>
+            <input type="text"  id="guessField" class="guessField">
+            <input type="submit" id="subt" 
+            value="Submit Guess" class="guessSubmit">
+        </form>
+
+        <div class="resultpara">
+            <p>Previous Guesses: 
+                <span id = "guessList"></span>
+            </p>            
+            <p>Guesses Remaining: 
+                <span id = "guessCount">10</span>
+            </p>            
+        </div>
+
+        <p class="rule">
+            At the Start of Game a random number will generate bteween 1 and 100.
+        </p>
+        <p class="rule">
+            You have 10 attempts to guess the number.
+        </p>
+        <p class="rule" >
+            If u guess it right, You win.
+        </p>
+    </div>
+</body>
+</html>
