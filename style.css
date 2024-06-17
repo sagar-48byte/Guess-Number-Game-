@@ -53,12 +53,19 @@ body{
 .result{
     height: 70px;
     width: 220px;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
+    color:antiquewhite;
 }
 
 .resultpara{
-    margin: 10px;
-    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin: 7px;
+    margin-bottom: 10px;
 }
 
 .rule{

@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <script src="src-javascript.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess-Number</title>
 </head>
@@ -12,8 +11,7 @@
         <h1>Number-Guessing-Game</h1>
     </div>
     <div class="center">
-        
-        <div class="result"></div>
+
         <form class="form">
             <label for="guessField" id="guess">
                 Guess a Number
@@ -29,7 +27,9 @@
             </p>            
             <p>Guesses Remaining: 
                 <span id = "guessCount">10</span>
-            </p>            
+            </p>      
+            
+            <p class="result"></p>
         </div>
 
         <p class="rule">
@@ -43,4 +43,6 @@
         </p>
     </div>
 </body>
+
+<script src="src-javascript.js"></script>
 </html>
